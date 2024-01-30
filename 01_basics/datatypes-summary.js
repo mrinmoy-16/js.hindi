@@ -11,7 +11,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id ===anotherId);
+//console.log(id ===anotherId);
 
 //const bigNumber = 5645569873646535278767897n
 
@@ -24,6 +24,19 @@ let myObj = {
     age: 22,
 }
  const myFunction = function (){
-    console.log("Hello World");
+   // console.log("Hello World");
  }
- console.log(typeof heros);
+ //console.log(typeof heros);
+
+
+ //***************************************************************************//
+
+ // MEMORYES
+ //TWO TYPES OF MEMORY  
+ //     ****STACK MEMORY(Primitive), HEAP(Non-Primitive)
+
+ let myYoutubeName = "mrinmoymondal.com"
+
+ let anothername = myYoutubeName
+ console.log(anothername);
+
